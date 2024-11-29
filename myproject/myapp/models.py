@@ -32,7 +32,7 @@ class Person(models.Model):
     age = models.IntegerField()
 
     def __str__(self):
-        return self.name
+       return f"Person : {self.name}, dodana w {self.month_added}, o rozmiarze koszuli {self.shirt_size}." 
 
 # skrót Shift+Alt+stszafka
 
